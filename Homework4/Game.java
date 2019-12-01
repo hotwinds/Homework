@@ -1,4 +1,4 @@
-package com.step.calculator;
+package com.matricon.homework4;
 
 import java.util.Scanner;
 
@@ -20,6 +20,6 @@ public class Game {
                 System.out.println(" Вы угадали");
             System.out.println(" Введите число ");
         } while (number != num);
-    System.out.println("Вы угадали число с " + count + " попыток.");
+        System.out.println("Вы угадали число с " + count + " попыток.");
     }
 }

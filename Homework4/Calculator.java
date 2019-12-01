@@ -1,28 +1,34 @@
-package com.step.calculator;
+package com.matricon.homework4;
 
 public class Calculator {
     // умножение, деление, сложение, вычитание
-    public void summ(int a, int b){
-        System.out.println(a + " + " + b + " = " + (a + b));
+    public int summ(int a, int b){
+        return a + b;
+//        System.out.println(a + " + " + b + " = " + (a + b));
     }
 
-    public void dif(int a, int b) {
-        System.out.println(a + " - " + b + " = " + (a - b));
+    public int dif(int a, int b) {
+        return a - b;
+//        System.out.println(a + " - " + b + " = " + (a - b));
     }
 
-    public void mult (int a, int b) {
-        System.out.println(a + " * " + b + " = " + (a * b));
+    public int mult (int a, int b) {
+        return a * b;
+//        System.out.println(a + " * " + b + " = " + (a * b));
     }
 
-    public void div (float a, float b) {
-        System.out.println(a + " / " + b + " = " + (a / b));
+    public float div (float a, float b) {
+        return a / b;
+//        System.out.println(a + " / " + b + " = " + (a / b));
     }
 
-    public void percent(double a, double b) {
-        System.out.println(a + " percent from " + b + " = " + ( a * b / 100));
+    public double percent(double a, double b) {
+        return a * b / 100;
+//        System.out.println(a + " percent from " + b + " = " + ( a * b / 100));
     }
 
-    public void modul(double a, double b){
-        System.out.println(a + " % " + b + " = " + (a % b));
+    public double modul(double a, double b){
+        return a % b;
+//        System.out.println(a + " % " + b + " = " + (a % b));
     }
 }
